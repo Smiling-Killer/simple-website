@@ -1,0 +1,208 @@
+.footerBackground {
+    background-color: #2B2733;
+    color: white;
+}
+.footerlefthead {
+    font-size: 23px;
+}
+.footerName {
+    text-align: end;
+    padding: 20px 20px;
+    color: rgba(255, 255, 255, 0.5016);
+   
+}
+
+.Details {
+    border-bottom: 1px solid black;
+    padding-top: 50px;
+}
+
+.leftFooter {
+    padding: 30px 30px;
+    border-right: 1px solid black;
+
+}
+
+p {
+   margin: 0;
+    font-size: 14px;
+    color: solid white;
+}
+
+.getStart {
+    color: #22B473;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.comanyFeilds{
+    display: flex;
+   margin: 20px 30px;
+
+ 
+}
+.loginsection {
+    padding-bottom: 41px;
+}
+.contactFeilds{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+    border-top: 1px solid black;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+.socialContact{
+    margin: 25px 50px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  height: 100;
+    align-items: center;
+    
+}
+.icons{
+  
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 5px;
+    
+}
+.icons p{
+    font-size: 18px;
+}
+.rightFooter{
+    width: 48%;
+}
+.loginsection button {
+    padding: 6px 19px;
+    border-radius: 5px;
+    background-color: #2B2733;
+    border: 1px solid #22B473;
+    color: #22B473;
+}
+.getStart{
+    padding-top: 35px;
+}
+.spanIcon{
+    font-size: 20px;
+    padding: 0% 15px;
+}
+.footerleftpara{
+font-size: 18px;
+}
+
+element.style {
+}
+.leftFooter {
+    padding: 24px 30px;
+    border-right: 1px solid black;
+}
+.comanyFeilds {
+    display: flex;
+    margin: 28px 30px;
+}
+@media only screen and (max-width: 1024px) {
+    
+    .footerleftpara {
+        font-size: 15px;
+    }
+    .leftFooter {
+        padding: 29px 11px 20px 5px;
+        border-right: 1px solid black;
+    }
+    .Details {
+        border-bottom: 1px solid black;
+        padding-top: 25px;
+    }
+    .getStart{
+        padding-top: 0px;
+    }
+    .socialContact {
+        margin: 23px 1px 2px 40px;
+    }
+    .loginsection {
+        padding-bottom: 49px;
+    }
+    
+
+._testimonials_container .right-test {
+    padding: 20px 30px 30px 93px;
+    align-items: center;
+    display: flex;
+}
+}
+@media only screen and (max-width: 768px) {
+    .footerlefthead {
+        font-size: 17px;
+    }
+    .loginsection {
+        padding-bottom: 28px;
+    }
+    .loginsection button {
+        padding: 4px 15px;
+        border-radius: 5px;
+        background-color: #2B2733;
+        border: 1px solid #22B473;
+        color: #22B473;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .comanyFeilds {
+        width: 82%;
+    }
+.loginsection button {
+    padding: 0px 4px;
+    border-radius: 5px;
+    background-color: #2B2733;
+    border: 1px solid #22B473;
+    color: #22B473;
+}
+.Details {
+   flex-direction: column;
+}
+.leftFooter {
+    padding: 29px 11px 20px 5px;
+    border-right: 1px solid black;
+    width: 100%;
+}
+.rightFooter {
+    width: 100%;
+}
+.footerlefthead {
+    font-size: 21px;
+}
+.footerleftpara {
+    font-size: 17px;
+}
+.getStart {
+    padding-top: 0px;
+    text-align: center;
+}
+.contactFeilds {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+    border-top: 1px solid black;
+    padding: 20px 0px;
+    width: 85%;
+}
+
+.comanyFeilds {
+    display: flex;
+    margin: 0;
+}
+.socialContact {
+margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.loginsection {
+    padding-bottom: 0;
+    padding: 20px;
+}
+.iconSection {
+    padding: 20px;
+}
+
+}

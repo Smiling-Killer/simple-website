@@ -1,0 +1,387 @@
+.overAll {
+    background-color:#F4FBFB;
+
+    padding: 50px 0px;
+    position:"relative";
+    height: 100%;
+    margin-bottom: 75px;
+ 
+}
+
+.subheading {
+    color: #077F8D;
+}
+h1.title {
+    padding: 0;
+    font-size: 49px;
+}
+p.indParagraph {
+    padding: 0;
+}
+
+._container input {
+    display: none;
+}
+.viewSolution {
+    color: var(--bs-link-color);
+    text-decoration: none;
+    padding: 0;
+    color: black;
+}
+._container input:checked+label {
+    border-bottom: 2px solid black;
+}
+
+._container input#tab1:checked~.line {
+    left: 0%;
+}
+
+._container input#tab1:checked~.content-container #c1 {
+    /* opacity: 1; */
+    display: block;
+}
+
+._container input#tab2:checked~.line {
+    left: 25%;
+}
+
+._container input#tab2:checked~.content-container #c2 {
+    /* opacity: 1; */
+    display: block;
+}
+
+._container input#tab3:checked~.line {
+    left: 50%;
+}
+
+
+
+._container input#tab3:checked~.content-container #c3 {
+    /* opacity: 1; */
+    display: block;
+}
+
+._container input#tab4:checked~.line {
+    left: 75%;
+}
+
+._container input#tab4:checked~.content-container #c4 {
+    /* opacity: 1; */
+    display: block;
+}
+
+._container label {
+    display: inline-block;
+    font-size: 16px;
+    height: 66px;
+    line-height: 36px;
+    width: 25%;
+    text-align: center;
+    color: #555;
+    position: relative;
+    transition: 0.25s background ease;
+    cursor: pointer;
+    padding: 15px 0px;
+    border-bottom: 2px solid lightgrey;
+}
+.WomenImage{
+    height: 370px;
+    position: absolute;
+    right: -80px;
+    bottom: -115px;
+    z-index: 0;
+}
+
+.each-content {
+    padding: 55px;
+}
+
+._container .content-container {
+    position: relative;
+    height: 350px;
+    font-size: 16px;
+}
+
+._container .content-container .content {
+    position: absolute;
+    /* padding: 10px; */
+    width: 100%;
+    top: 0;
+    /* opacity: 0; */
+    display: none;
+    transition: 0.25s ease;
+    color: #333;
+}
+
+._container .content-container .content h3 {
+    font-weight: 200;
+    margin: 10px 0;
+}
+
+._container .content-container .content p {
+    margin: 10px 0;
+}
+
+._container .content-container .content p,
+._container .content-container .content i {
+    font-size: 13px;
+}
+
+
+.title{
+    font-size: 50px;
+    padding: 40px 0px;
+}
+.contendPara{
+    font-size: 56px;
+}
+.indParagraph{
+    font-size: 20px !important;
+}
+
+.tabCard {
+    background: #fff;
+    padding: 30px 40px;
+    border-bottom: 5px solid #A74170;
+    position: absolute;
+    bottom: -95px;
+    right: 40px;
+    z-index: 1;
+    width: 400px;
+}
+.savingsbank{
+    height: 150px;
+    position: absolute;
+    left: 15px;
+    bottom: -105px;
+    z-index: 2;
+}
+ .cardLink{
+    
+        padding-right: 48px;
+        text-decoration: none;
+    
+ }                   
+                   
+.rightContainer {
+    position: relative;
+}
+@media only screen and (max-width: 1024px) {
+    .savingsbank {
+        height: 116px;
+        position: absolute;
+        left: -25px;
+        bottom: -70px;
+        z-index: 2;
+    }
+    .contendabsolute{
+font-size: 18px;
+    }
+    .cardLink {
+        padding-right: 15px;
+        text-decoration: none;
+    }
+    .WomenImage {
+        height: 272px;
+        position: absolute;
+        right: -80px;
+        bottom: -88px;
+        z-index: 0;
+    }
+    .tabCard {
+        background: #fff;
+        padding: 3px 37px;
+        border-bottom: 5px solid #A74170;
+        position: absolute;
+        bottom: -69px;
+        right: 22px;
+        z-index: 1;
+        width: 294px;
+    }
+    .savingsbank {
+        height: 116px;
+        position: absolute;
+        left: -4px;
+        bottom: -70px;
+        z-index: 2;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    h1.title {
+        padding: 0;
+        font-size: 32px;
+    }
+    .WomenImage {
+        height: 172px;
+        position: absolute;
+        right: -81px;
+        bottom: -57px;
+        z-index: 0;
+    }
+    .contendabsolute {
+        font-size: 13px;
+    }
+    .cardLink{
+        font-size: 2px;
+    }
+    .tabCard {
+        background: #fff;
+        padding: 3px 22px;
+        border-bottom: 5px solid #A74170;
+        position: absolute;
+        bottom: -45px;
+        right: -10px;
+        z-index: 1;
+        width: 222px;
+    }
+    .savingsbank {
+        height: 89px;
+        position: absolute;
+        left: 1px;
+        bottom: -48px;
+        z-index: 2;
+    }
+    .cardLink {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .maincontainerinte{
+display: flex;
+flex-direction: column;
+    }
+ 
+   
+    .overAll {
+        background-color: #F4FBFB;
+        padding: 50px 0px;
+        position: "relative";
+        height: 120vh;
+        margin-bottom: 40px;
+    }
+    .tabCard {
+        background: #fff;
+        padding: 3px 22px;
+        border-bottom: 5px solid #A74170;
+        position: absolute;
+        bottom: -199px;
+        right: 0px;
+        z-index: 1;
+        width: 222px;
+    }
+    .WomenImage {
+        height: 204px;
+        position: absolute;
+        right: -52px;
+        bottom: -204px;
+        z-index: 0;
+    }
+    .savingsbank {
+        height: 89px;
+        position: absolute;
+        left: -13px;
+        bottom: -201px;
+        z-index: 2;
+    }
+}
+@media only screen and (max-width: 375px) {
+    ._container label {
+        display: inline-block;
+        font-size: 13px;
+        height: 52px;
+        line-height: 36px;
+        width: 25%;
+        text-align: center;
+        color: #555;
+        position: relative;
+        transition: 0.25s background ease;
+        cursor: pointer;
+        padding: 15px 0px;
+        border-bottom: 2px solid lightgrey;
+    }
+    img.bankiconheader {
+        height: 18px;
+        width: 22px;
+    }
+    h1.title {
+        padding: 0;
+        font-size: 25px;
+    }
+    .savingsbank {
+        height: 74px;
+        position: absolute;
+        left: -50px;
+        bottom: -172px;
+        z-index: 2;
+    }
+    .tabCard {
+        background: #fff;
+        padding: 0px 16px;
+        border-bottom: 5px solid #A74170;
+        position: absolute;
+        bottom: -170px;
+        right: 13px;
+        z-index: 1;
+        width: 203px;
+    }
+    .WomenImage {
+        height: 176px;
+        position: absolute;
+        right: -62px;
+        bottom: -179px;
+        z-index: 0;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .overAll {
+        background-color: #F4FBFB;
+        padding: 50px 0px;
+        position: "relative";
+        height: 140vh;
+        margin-bottom: 20px;
+    }
+    .WomenImage {
+        height: 184px;
+        position: absolute;
+        right: -62px;
+        bottom: -208px;
+        z-index: 0;
+    }
+    .tabCard {
+        background: #fff;
+        padding: 0px 16px;
+        border-bottom: 5px solid #A74170;
+        position: absolute;
+        bottom: -206px;
+        right: -22px;
+        z-index: 1;
+        width: 203px;
+    }
+    .savingsbank {
+        height: 74px;
+        position: absolute;
+        left: -70px;
+        bottom: -201px;
+        z-index: 2;
+    }
+    
+
+._container label {
+    display: inline-block;
+    font-size: 12px;
+    height: 52px;
+    line-height: 36px;
+    width: 25%;
+    text-align: center;
+    color: #555;
+    position: relative;
+    transition: 0.25s background ease;
+    cursor: pointer;
+    padding: 15px 0px;
+    border-bottom: 2px solid lightgrey;
+}
+ 
+
+}

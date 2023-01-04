@@ -1,0 +1,155 @@
+.card{
+    border-radius: 0;
+}
+
+
+.arrowrfirst{
+ text-align: right;
+ color: #077F8D;
+ margin: 20px;
+}
+
+
+
+
+.card1{
+    padding: 40px 30px;
+    background-color: #077F8D;
+}
+.card-Box1 {
+    background-color: white;
+    height: 40px;
+    width: 79%;
+}
+.card-text {
+    font-size: 23px;
+    padding: 20px;
+    color: white;
+}
+.btn1{
+ background-color:#077F8D;
+ border: none;
+ font-size: 20px;
+ color: white;
+ text-decoration: none;
+}
+
+
+
+
+
+.card-Box2 {
+    background-color: white;
+    height: 40px;
+    width: 79%;
+    
+}
+.card-text {
+    font-size: 23px;
+    padding: 20px;
+    color: white;
+}
+.btn2{
+ background-color:#A74170;
+ border: none;
+ font-size: 20px;
+ color: white;
+ text-decoration: none;
+}
+
+.card2{
+    padding: 40px 30px;
+    background-color:   #A74170;
+}
+
+
+.card-Box3 {
+    background-color: white;
+    height: 40px;
+    width: 79%;
+}
+.card-text {
+    font-size: 23px;
+    padding: 20px;
+    color: white;
+}
+.btn3{
+ background-color:#077F8D;
+ border: none;
+ font-size: 20px;
+ color: white;
+ text-decoration: none;
+}
+.card3{
+    padding: 40px 30px;
+    background-color:   #077F8D;
+}
+
+
+.card-Box4 {
+    background-color: white;
+    height: 40px;
+    width: 79%;
+}
+.card-text {
+    font-size: 23px;
+    padding: 20px;
+    color: white;
+}
+.btn4{
+ background-color:#333A42;
+ border: none;
+ color: white;
+ text-decoration: none;
+ font-size: 20px;
+}
+.card4{
+    padding: 40px 30px;
+    background-color:   #333A42;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .card-text {
+        font-size: 14px;
+        padding: 20px;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .card-text {
+        font-size: 13px;
+        padding: 0px;
+        color: white;
+    }
+    }
+    @media only screen and (max-width: 425px) {
+
+        .card-text {
+            font-size: 23px;
+            padding: 20px;
+            color: white;
+        }
+        }
+        .card1 {
+            
+            margin: 20px 1px;
+           
+        }
+        .card2 {
+           
+            margin: 20px 1px;
+            
+        }
+        .card3 {
+           
+            margin: 20px 1px;
+            
+        }
+        .card4 {
+           
+            margin: 20px 1px;
+            
+        }

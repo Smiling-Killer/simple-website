@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e512e88.css",
+    "main.js": "/static/js/main.470f52a6.js",
+    "static/js/787.0072c9e4.chunk.js": "/static/js/787.0072c9e4.chunk.js",
+    "static/media/women.png": "/static/media/women.6cbb2ed281bb3c3b3c84.png",
+    "static/media/testimonial.png": "/static/media/testimonial.6f77a7855f9bde2e0542.png",
+    "static/media/Home.png": "/static/media/Home.d6e5b47a121a25356647.png",
+    "static/media/savings-bank.png": "/static/media/savings-bank.dc10103504d909ac732a.png",
+    "static/media/wave3.png": "/static/media/wave3.61e6603f0bb4df271cd2.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.9e512e88.css.map": "/static/css/main.9e512e88.css.map",
+    "main.470f52a6.js.map": "/static/js/main.470f52a6.js.map",
+    "787.0072c9e4.chunk.js.map": "/static/js/787.0072c9e4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e512e88.css",
+    "static/js/main.470f52a6.js"
+  ]
+}

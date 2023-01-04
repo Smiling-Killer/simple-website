@@ -1,0 +1,197 @@
+.overall {
+    height: 100%;
+}
+.menuButton{
+    visibility: hidden;
+        }
+.navbar {
+    display: flex;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding-right: 13px;
+}
+
+li {
+    padding: 10px;
+    color: white;
+
+}
+
+.header {
+    background: #24336A;
+    padding: 30px 0px;
+    padding-top: 60px;
+}
+
+.headerRow {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo p {
+    margin: 0;
+    display: inline-block;
+    padding: 3px 15px;
+    background: white;
+    text-align: center;
+    font-size: 16px;
+    width: 180px;
+}
+
+.nav-right {
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+.demoButton {
+    background: #24336A;
+    border-radius: 10px;
+    padding: 5px 15px;
+    border: 1px solid #B0BF40
+    ;
+    transition: all 0.2s ease-in-out;
+    color: #fff;
+}
+
+.demoButton:hover {
+    background: #fff;
+    border: 1px solid #fff;
+    transition: all 0.2s ease-in-out;
+    color: #24336A;
+}
+.left-container{
+color: white;
+
+}
+.HomeContainer{
+    display: flex;
+    color: rgb(225, 220, 220);
+    padding-top: 50px;
+}
+.heading{
+ font-size: 64px;
+ padding: 20px 20px 20px 20px;
+}
+.paragraph{
+    font-size: 20px;
+    padding: 10px 20px;
+    color: rgb(222, 219, 219);
+}
+.textEnd{
+   font-size: 20px;
+   padding: 0px 20px;
+   margin: 0px 40px;
+}
+.proImag{
+    height: 320px;
+   }
+   
+@media only screen and (max-width: 1024px) {
+    .proImag{
+        height: 283px;
+       }
+       .col-3 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+    .nav-right {
+        justify-content: flex-end;
+        margin-right: -34px;
+    }
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding-right: 13px;
+        font-size: 12px;
+    }
+    .heading {
+        font-size: 57px;
+        padding: 0px 10px 1px 20px;
+    }
+    .logo p{
+        width:129px;
+    }
+    .paragraph {
+        font-size: 15px;
+        padding: 10px 20px;
+        color: rgb(222, 219, 219);
+    }
+    .textEnd {
+        font-size: 11px;
+        padding: 0px 5px;
+        margin: 0px 40px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+   
+    .nav-right {
+        visibility: hidden;
+    }
+    .logo {
+        margin-left: 60px;
+    }
+    .menuButton{
+visibility: visible;
+position: absolute;
+right: 25px;
+top: 55px;
+border: none;background-color: #24336A;
+color: white;
+font-size: 45px;
+    }
+
+    .proImag {
+        height: 221px;
+        padding-top: 13px;
+    }
+    .heading {
+        font-size: 37px;
+        padding: 0px 10px 1px 20px;
+    }
+    
+  }
+  @media only screen and (max-width: 425px) {
+    .proImag {
+        height: 128px;
+        padding-top: 9px;
+        
+    }
+    .logo {
+        margin-left: 38px;
+    }
+    .HomeContainer {
+        display: flex;
+        flex-direction: column;
+        color: rgb(225, 220, 220);
+        padding-top: 50px;
+    }
+    .col-6{
+        width: 100%;
+        text-align: start;
+        
+    }
+    .contendhome{
+          
+    }
+    .contendHomeImg{
+           text-align: center;
+    }
+    .nav-right {
+        justify-content: flex-end;
+        margin-right: -1px;
+    }
+  }
